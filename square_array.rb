@@ -10,5 +10,4 @@
 
 def square_array(array)
   return array.collect {|number| number**2 }
-  end
 end
