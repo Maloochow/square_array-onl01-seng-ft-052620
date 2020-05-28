@@ -9,6 +9,6 @@
 
 
 def square_array(array)
-  return array.map {|number| number**2 }
+  return array.collect {|number| number**2 }
   end
 end
