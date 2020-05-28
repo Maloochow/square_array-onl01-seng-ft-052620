@@ -9,7 +9,7 @@
 
 
 def square_array(array)
-  array.collect do |number|
+  array.map do |number|
     squared_number = number**2
   end
   return array
